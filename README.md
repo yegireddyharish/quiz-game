@@ -1,5 +1,5 @@
-Interactive Quiz Game
-Project Description
+#Interactive Quiz Game
+#Project Description
 This is a simple, beginner-friendly interactive quiz game built using vanilla JavaScript, HTML, and CSS. The game presents a series of multiple-choice questions, tracks the user's score, and displays the final result at the end.
 
 This project was built to practice core front-end development skills, including:
