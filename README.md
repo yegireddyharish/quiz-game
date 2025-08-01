@@ -1,58 +1,32 @@
-#Interactive Quiz Game
-#Project Description
-This is a simple, beginner-friendly interactive quiz game built using vanilla JavaScript, HTML, and CSS. The game presents a series of multiple-choice questions, tracks the user's score, and displays the final result at the end.
+# Interactive Quiz Game
 
-This project was built to practice core front-end development skills, including:
+A simple and engaging multiple-choice quiz game built with vanilla JavaScript. This project demonstrates how to handle data, manage application state, and dynamically update the user interface based on user interactions.
 
-DOM Manipulation: Dynamically loading questions and answers onto the page.
+## 🚀 Features
 
-Event Handling: Responding to user clicks on answer choices and the "Submit" button.
+-   **Multiple-Choice Questions:** A set of pre-defined questions with multiple answer options.
+-   **Dynamic UI:** The questions and answers are loaded and updated dynamically from a JavaScript array.
+-   **Scoring System:** Tracks the user's correct answers and displays a final score.
+-   **"Reload" Button:** Allows the user to play the game again after completion.
 
-Data Structures: Managing quiz questions and answers using an array of objects.
+## 💻 Technologies Used
 
-Conditional Logic: Checking if the user's answer is correct and updating the score.
+-   **HTML5:** For the basic structure of the quiz card and buttons.
+-   **CSS3:** For a clean, modern, and responsive design.
+-   **JavaScript (ES6+):** For the core game logic, including loading questions, checking answers, and updating the score.
 
-Features
-Multiple-Choice Questions: Presents a series of pre-defined questions.
+## 🌟 How to Play
 
-Score Tracking: Keeps a running tally of correct answers.
+1.  **Start:** The first question is automatically loaded when you open the page.
+2.  **Select an Answer:** Click on one of the answer choices.
+3.  **Submit:** Click the "Submit" button to check your answer and move to the next question.
+4.  **Finish:** After answering all the questions, your final score will be displayed.
+5.  **Play Again:** Click the "Reload" button to restart the quiz.
 
-Final Score Display: Shows the user's final score after all questions are answered.
+## 💡 What I Learned
 
-Reload Button: Allows the user to restart the quiz easily.
-
-Clean and Responsive UI: The design is simple, clean, and works well on both desktop and mobile devices.
-
-Technologies Used
-HTML: For the basic structure of the quiz game.
-
-CSS: For styling the user interface.
-
-JavaScript: For all the interactive logic, including loading questions, checking answers, and updating the score.
-
-How to Run Locally
-To run this project on your local machine, follow these steps:
-
-Clone the repository:
-
-Bash
-
-git clone https://github.com/yegireddyharish/quiz-game.git
-Navigate to the project directory:
-
-Bash
-
-cd quiz-game
-Open the index.html file:
-Simply open the index.html file in your preferred web browser. You can do this by double-clicking the file or by using the command line:
-
-Bash
-
-open index.html # On macOS
-start index.html # On Windows
-
-Getting Started
-Feel free to fork this repository and modify the quizData array in the script.js file to create your own custom quizzes!
-
-Author
-yegireddyharish
+-   **Data Structures:** Using an array of objects to store quiz questions and their associated data.
+-   **Event Handling:** Listening for clicks on the "Submit" button to process user input.
+-   **DOM Manipulation:** Dynamically changing the content of HTML elements to display new questions.
+-   **Logic and State Management:** Keeping track of the current question number and the user's score throughout the game.
+---
